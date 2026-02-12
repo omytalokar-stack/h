@@ -88,3 +88,4 @@ if "%GRADLE_EXIT_CONSOLE%"=="" exit /b 1
 if "%OS%"=="Windows_NT" endlocal
 
 :omega
+
