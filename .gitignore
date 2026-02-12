@@ -1,0 +1,48 @@
+# Gradle
+.gradle/
+build/
+.gradle
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.classpath
+.project
+.settings/
+local.properties
+*.jks
+*.keystore
+
+# Kotlin
+*.kotlin_module
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build files
+gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Agent</string>
+    <string name="service_notification_title">AI Agent Active</string>
+    <string name="service_notification_message">AI Agent is running and monitoring calls...</string>
+    <string name="service_notification_channel">AI Agent Service</string>
+    <string name="voice_command_utha">Utha</string>
+    <string name="voice_command_cut">Cut kar</string>
+    <string name="whatsapp_command">WhatsApp kar</string>
+    <string name="error_gemini_api">Failed to initialize Gemini AI API</string>
+    <string name="error_voice_recognition">Voice recognition failed</string>
+    <string name="error_tts">Text-to-Speech initialization failed</string>
+    <string name="welcome_message">AI Agent is ready. Say commands like Utha to answer or Cut kar to hang up.</string>
+    <string name="listening">Listening for voice commands...</string>
+    <string name="processing">Processing your command...</string>
+    <string name="call_answered">Call answered</string>
+    <string name="call_rejected">Call rejected</string>
+</resources>
