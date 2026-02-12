@@ -27,14 +27,9 @@ jobs:
     - name: Install Android SDK
       uses: android-actions/setup-android@v2
     
-    - name: Build Release APK (using system Gradle, target :app)
+    - name: Build APK (simplified: assembleDebug)
       working-directory: .
-      run: |
-        gradle :app:assembleRelease --no-daemon -Dorg.gradle.jvmargs="-Xmx2048m -XX:MaxMetaspaceSize=512m"
-
-    - name: Build Debug APK (using system Gradle, target :app)
-      working-directory: .
-      run: gradle :app:assembleDebug --no-daemon -Dorg.gradle.jvmargs="-Xmx2048m -XX:MaxMetaspaceSize=512m"
+      run: gradle assembleDebug --no-daemon
     
     - name: Upload APK Artifacts
       uses: actions/upload-artifact@v4
